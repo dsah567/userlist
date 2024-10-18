@@ -63,6 +63,8 @@ const App: React.FC = () => {
   };
 
   const handleSave = (index: number) => {
+    console.log(index);
+    
     setEditIndex(null); // Exit edit mode
   };
 
